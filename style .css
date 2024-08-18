@@ -1,0 +1,51 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: #4282e7;
+    text-align: center;
+   
+   
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+input{
+    padding: 16px 64px;
+    width: 300px;
+}
+button{
+    padding: 16px 32px;
+}
+.footer{
+    color: gainsboro;
+    font-weight: 600;
+}
+.completed{
+    text-decoration: line-through;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 8px 0;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.delete-btn{
+   color: red;
+   background-color: white;
+   padding: 8px;
+   border: none;
+   border-radius: 25px;
+   font-weight: 600;
+}
