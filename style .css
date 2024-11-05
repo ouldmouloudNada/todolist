@@ -8,6 +8,7 @@ body{
     text-align: center;
    
    
+   
 }
 .container{
     height: 100vh;
@@ -22,6 +23,12 @@ input{
 }
 button{
     padding: 16px 32px;
+}
+@media screen and (max-width:600px){
+    
+    input{
+        width: 50%;
+    }
 }
 .footer{
     color: gainsboro;
